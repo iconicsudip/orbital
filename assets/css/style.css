@@ -6026,7 +6026,7 @@ ul.wp-block-latest-posts li:last-child {
   color: var(--title-color);
   font-weight: 600;
   letter-spacing: -3px;
-  font-size: 120px;
+  font-size: 80px;
 }
 
 .hero-text {
@@ -6055,13 +6055,13 @@ ul.wp-block-latest-posts li:last-child {
 /* Medium Large devices */
 @media (max-width: 1399px) {
   .hero-title {
-    font-size: 100px;
+    font-size: 80px;
   }
 }
 /* Medium Large devices */
 @media (max-width: 1299px) {
   .hero-title {
-    font-size: 90px;
+    font-size: 70px;
   }
   .hero-text {
     font-size: 16px;
@@ -8950,7 +8950,10 @@ blockquote p {
   /* Medium devices */
 }
 .feature-card-icon {
-  margin-bottom: 74px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
 }
 .feature-card-title a {
   color: var(--title-color);
@@ -8958,12 +8961,16 @@ blockquote p {
 .feature-card-text {
   margin-bottom: 24px;
 }
+.feature-card-title{
+  margin: 0;
+}
 @media (max-width: 991px) {
   .feature-card {
     padding: 30px 26px;
   }
   .feature-card-title {
     font-size: 20px;
+    margin: 0;
   }
   .feature-card-icon {
     margin-bottom: 34px;
